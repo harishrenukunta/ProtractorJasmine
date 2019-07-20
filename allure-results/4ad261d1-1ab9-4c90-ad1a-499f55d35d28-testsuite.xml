@@ -1,0 +1,93 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1563639061602' stop='1563639078329'>
+    <name>Demo first test</name>
+    <title>Demo first test</title>
+    <test-cases>
+        <test-case start='1563639061602' status='failed' stop='1563639062788'>
+            <name>Add two numbers</name>
+            <title>Add two numbers</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='4912aee7-888a-4dd3-8a17-91b6601e6495-attachment.png' type='image/png' size='34612'/>
+            </attachments>
+            <failure>
+                <message>Failed: Cannot read property 'createStep' of undefined</message>
+                <stack-trace>TypeError: Cannot read property 'createStep' of undefined
+                    at UserContext.&lt;anonymous> (/Users/Harish/Documents/MyPersonalProjects/protractor-demo/LearnProtractorJasmine/specs/spec.js:8:21)
+                    at /Users/Harish/Documents/MyPersonalProjects/protractor-demo/LearnProtractorJasmine/node_modules/jasminewd2/index.js:112:25
+                    at new ManagedPromise (/Users/Harish/Documents/MyPersonalProjects/protractor-demo/LearnProtractorJasmine/node_modules/selenium-webdriver/lib/promise.js:1077:7)
+                    at ControlFlow.promise (/Users/Harish/Documents/MyPersonalProjects/protractor-demo/LearnProtractorJasmine/node_modules/selenium-webdriver/lib/promise.js:2505:12)
+                    at schedulerExecute (/Users/Harish/Documents/MyPersonalProjects/protractor-demo/LearnProtractorJasmine/node_modules/jasminewd2/index.js:95:18)
+                    at TaskQueue.execute_ (/Users/Harish/Documents/MyPersonalProjects/protractor-demo/LearnProtractorJasmine/node_modules/selenium-webdriver/lib/promise.js:3084:14)
+                    at TaskQueue.executeNext_ (/Users/Harish/Documents/MyPersonalProjects/protractor-demo/LearnProtractorJasmine/node_modules/selenium-webdriver/lib/promise.js:3067:27)
+                    at asyncRun (/Users/Harish/Documents/MyPersonalProjects/protractor-demo/LearnProtractorJasmine/node_modules/selenium-webdriver/lib/promise.js:2974:25)
+                    at /Users/Harish/Documents/MyPersonalProjects/protractor-demo/LearnProtractorJasmine/node_modules/selenium-webdriver/lib/promise.js:668:7
+                    at process._tickCallback (internal/process/next_tick.js:68:7)
+                From: Task: Run it("Add two numbers") in control flow
+                    at UserContext.&lt;anonymous> (/Users/Harish/Documents/MyPersonalProjects/protractor-demo/LearnProtractorJasmine/node_modules/jasminewd2/index.js:94:19)
+                    at attempt (/Users/Harish/Documents/MyPersonalProjects/protractor-demo/LearnProtractorJasmine/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)
+                    at QueueRunner.run (/Users/Harish/Documents/MyPersonalProjects/protractor-demo/LearnProtractorJasmine/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)
+                    at runNext (/Users/Harish/Documents/MyPersonalProjects/protractor-demo/LearnProtractorJasmine/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4257:20)
+                    at /Users/Harish/Documents/MyPersonalProjects/protractor-demo/LearnProtractorJasmine/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4264:13
+                    at /Users/Harish/Documents/MyPersonalProjects/protractor-demo/LearnProtractorJasmine/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4172:9
+                    at /Users/Harish/Documents/MyPersonalProjects/protractor-demo/LearnProtractorJasmine/node_modules/jasminewd2/index.js:64:48
+                    at ControlFlow.emit (/Users/Harish/Documents/MyPersonalProjects/protractor-demo/LearnProtractorJasmine/node_modules/selenium-webdriver/lib/events.js:62:21)
+                    at ControlFlow.shutdown_ (/Users/Harish/Documents/MyPersonalProjects/protractor-demo/LearnProtractorJasmine/node_modules/selenium-webdriver/lib/promise.js:2674:10)
+                    at shutdownTask_.MicroTask (/Users/Harish/Documents/MyPersonalProjects/protractor-demo/LearnProtractorJasmine/node_modules/selenium-webdriver/lib/promise.js:2599:53)
+                From asynchronous test: 
+                Error
+                    at Suite.&lt;anonymous> (/Users/Harish/Documents/MyPersonalProjects/protractor-demo/LearnProtractorJasmine/specs/spec.js:7:5)
+                    at addSpecsToSuite (/Users/Harish/Documents/MyPersonalProjects/protractor-demo/LearnProtractorJasmine/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1107:25)
+                    at Env.describe (/Users/Harish/Documents/MyPersonalProjects/protractor-demo/LearnProtractorJasmine/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1074:7)
+                    at describe (/Users/Harish/Documents/MyPersonalProjects/protractor-demo/LearnProtractorJasmine/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4399:18)
+                    at Object.&lt;anonymous> (/Users/Harish/Documents/MyPersonalProjects/protractor-demo/LearnProtractorJasmine/specs/spec.js:2:1)
+                    at Module._compile (internal/modules/cjs/loader.js:776:30)
+                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10)
+                    at Module.load (internal/modules/cjs/loader.js:653:32)
+                    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1563639062788' status='passed' stop='1563639066087'>
+            <name>Substract two numbers</name>
+            <title>Substract two numbers</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='9fd67612-ffbc-474b-9bf1-b96a90f6a6a6-attachment.png' type='image/png' size='37210'/>
+            </attachments>
+        </test-case>
+        <test-case start='1563639066087' status='passed' stop='1563639069806'>
+            <name>Division of two numbers</name>
+            <title>Division of two numbers</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='c824aaf8-b94b-45fd-9e6c-519cbd92f2ee-attachment.png' type='image/png' size='38258'/>
+            </attachments>
+        </test-case>
+        <test-case start='1563639069806' status='passed' stop='1563639070994'>
+            <name>Should allow 4 operations</name>
+            <title>Should allow 4 operations</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='68322233-aeb2-4cd5-858e-d8c9e588e3f9-attachment.png' type='image/png' size='34612'/>
+            </attachments>
+        </test-case>
+        <test-case start='1563639070994' status='passed' stop='1563639078329'>
+            <name>Performed operations are displayed in table</name>
+            <title>Performed operations are displayed in table</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='44a8736c-acff-40b9-9073-49a50c40ba69-attachment.png' type='image/png' size='37963'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

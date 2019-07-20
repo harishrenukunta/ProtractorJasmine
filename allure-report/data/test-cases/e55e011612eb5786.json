@@ -1,0 +1,153 @@
+{
+  "uid" : "e55e011612eb5786",
+  "name" : "Add two numbers",
+  "fullName" : "Demo first test.Add two numbers",
+  "historyId" : "1c3a4bef4cded813a301a6fc5d1044c7",
+  "time" : {
+    "start" : 1563640179731,
+    "stop" : 1563640182978,
+    "duration" : 3247
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : true,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Enter data into first operand",
+      "time" : {
+        "start" : 1563640180812,
+        "stop" : 1563640180813,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Enter data into second operand",
+      "time" : {
+        "start" : 1563640180813,
+        "stop" : 1563640180813,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "7963b71cf8f08ce1",
+      "name" : "Screenshot:After First operand",
+      "source" : "7963b71cf8f08ce1.png",
+      "type" : "image/png",
+      "size" : 35120
+    }, {
+      "uid" : "835909282f488be7",
+      "name" : "Screenshot:After First operand",
+      "source" : "835909282f488be7.png",
+      "type" : "image/png",
+      "size" : 35579
+    }, {
+      "uid" : "26fc3c2f2460e6c2",
+      "name" : "Screenshot",
+      "source" : "26fc3c2f2460e6c2.png",
+      "type" : "image/png",
+      "size" : 37563
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Demo first test"
+  }, {
+    "name" : "testClass",
+    "value" : "Demo first test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Add two numbers"
+  }, {
+    "name" : "package",
+    "value" : "Demo first test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "f13ea619b4a97d74",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563639877230,
+        "stop" : 1563639880479,
+        "duration" : 3249
+      }
+    }, {
+      "uid" : "cc1ceb53254c286e",
+      "status" : "failed",
+      "statusDetails" : "Failed: browser.takeScreenShot is not a function",
+      "time" : {
+        "start" : 1563639810301,
+        "stop" : 1563639811484,
+        "duration" : 1183
+      }
+    }, {
+      "uid" : "9f38b16560da89a9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563639163594,
+        "stop" : 1563639166679,
+        "duration" : 3085
+      }
+    }, {
+      "uid" : "2f4d873884b86734",
+      "status" : "failed",
+      "statusDetails" : "Failed: Cannot read property 'createStep' of undefined",
+      "time" : {
+        "start" : 1563639061602,
+        "stop" : 1563639062788,
+        "duration" : 1186
+      }
+    }, {
+      "uid" : "355661820093f33d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563627838023,
+        "stop" : 1563627841122,
+        "duration" : 3099
+      }
+    }, {
+      "uid" : "dc9bd835b150f3c1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563627606843,
+        "stop" : 1563627609867,
+        "duration" : 3024
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e55e011612eb5786.json",
+  "parameterValues" : [ ]
+}

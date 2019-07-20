@@ -1,0 +1,72 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1563639877230' stop='1563639895990'>
+    <name>Demo first test</name>
+    <title>Demo first test</title>
+    <test-cases>
+        <test-case start='1563639877230' status='passed' stop='1563639880479'>
+            <name>Add two numbers</name>
+            <title>Add two numbers</title>
+            <labels/>
+            <parameters/>
+            <steps>
+                <step start='1563639878318' status='passed' stop='1563639878318'>
+                    <name>Enter data into first operand</name>
+                    <title>Enter data into first operand</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1563639878319' status='passed' stop='1563639878319'>
+                    <name>Enter data into second operand</name>
+                    <title>Enter data into second operand</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Screenshot:After First operand' source='0e3c3123-f968-400b-ac54-bf6d5e95fdc7-attachment.png' type='image/png' size='34612'/>
+                <attachment title='Screenshot:After First operand' source='0938639d-f7c3-4142-932a-db7abaf00001-attachment.png' type='image/png' size='35120'/>
+                <attachment title='Screenshot' source='a82079a4-093e-4c18-a9a0-a4b70e1902aa-attachment.png' type='image/png' size='37500'/>
+            </attachments>
+        </test-case>
+        <test-case start='1563639880479' status='passed' stop='1563639883787'>
+            <name>Substract two numbers</name>
+            <title>Substract two numbers</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='d73b4fed-a3e8-4c65-8047-71e4e1f5b48c-attachment.png' type='image/png' size='37262'/>
+            </attachments>
+        </test-case>
+        <test-case start='1563639883787' status='passed' stop='1563639887476'>
+            <name>Division of two numbers</name>
+            <title>Division of two numbers</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='ba998d3b-48bc-48a7-a16b-3cc4a4d03b4e-attachment.png' type='image/png' size='38463'/>
+            </attachments>
+        </test-case>
+        <test-case start='1563639887476' status='passed' stop='1563639888672'>
+            <name>Should allow 4 operations</name>
+            <title>Should allow 4 operations</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='e19c11a6-7883-495b-8859-86bd663c8aa8-attachment.png' type='image/png' size='34612'/>
+            </attachments>
+        </test-case>
+        <test-case start='1563639888672' status='passed' stop='1563639895990'>
+            <name>Performed operations are displayed in table</name>
+            <title>Performed operations are displayed in table</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='42fcd815-c847-4720-8c13-2bd7e1640179-attachment.png' type='image/png' size='38534'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

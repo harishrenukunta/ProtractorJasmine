@@ -1,0 +1,59 @@
+{
+  "uid" : "571a60f0a815816c",
+  "name" : "Performed operations are displayed in table",
+  "fullName" : "Demo first test.Performed operations are displayed in table",
+  "historyId" : "54b6855d0f92153c0c12103767f6893a",
+  "time" : {
+    "start" : 1563639174867,
+    "stop" : 1563639182191,
+    "duration" : 7324
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "4f0b36249b78605a",
+      "name" : "Screenshot",
+      "source" : "4f0b36249b78605a.png",
+      "type" : "image/png",
+      "size" : 38391
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Demo first test"
+  }, {
+    "name" : "testClass",
+    "value" : "Demo first test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Performed operations are displayed in table"
+  }, {
+    "name" : "package",
+    "value" : "Demo first test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "571a60f0a815816c.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,109 @@
+{
+  "uid" : "b8252e4dff7c69dc",
+  "name" : "Verify all text boxes available",
+  "fullName" : "Verify UI elements.Verify all text boxes available",
+  "historyId" : "3152015299126778985af410e0842e2c",
+  "time" : {
+    "start" : 1563640178293,
+    "stop" : 1563640179725,
+    "duration" : 1432
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ff13da5bbbf7f727",
+      "name" : "Screenshot",
+      "source" : "ff13da5bbbf7f727.png",
+      "type" : "image/png",
+      "size" : 34612
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Verify UI elements"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify UI elements"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify all text boxes available"
+  }, {
+    "name" : "package",
+    "value" : "Verify UI elements"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d31d23dc1e98aba6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563639875883,
+        "stop" : 1563639877224,
+        "duration" : 1341
+      }
+    }, {
+      "uid" : "3f4215c365ed84b0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563639808621,
+        "stop" : 1563639810294,
+        "duration" : 1673
+      }
+    }, {
+      "uid" : "8d599e8a2b1b14ac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563639162185,
+        "stop" : 1563639163588,
+        "duration" : 1403
+      }
+    }, {
+      "uid" : "245bf914f376343f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563639060138,
+        "stop" : 1563639061596,
+        "duration" : 1458
+      }
+    }, {
+      "uid" : "816dfe4db30926a5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563627836595,
+        "stop" : 1563627838017,
+        "duration" : 1422
+      }
+    }, {
+      "uid" : "f1baa57d3e79eed5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563627605445,
+        "stop" : 1563627606835,
+        "duration" : 1390
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b8252e4dff7c69dc.json",
+  "parameterValues" : [ ]
+}

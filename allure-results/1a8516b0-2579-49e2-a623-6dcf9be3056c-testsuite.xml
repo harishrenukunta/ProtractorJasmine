@@ -1,0 +1,57 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1563627838023' stop='1563627856647'>
+    <name>Demo first test</name>
+    <title>Demo first test</title>
+    <test-cases>
+        <test-case start='1563627838023' status='passed' stop='1563627841122'>
+            <name>Add two numbers</name>
+            <title>Add two numbers</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='778e84a6-71a1-46b3-9eaf-d50091cced98-attachment.png' type='image/png' size='37105'/>
+            </attachments>
+        </test-case>
+        <test-case start='1563627841123' status='passed' stop='1563627844429'>
+            <name>Substract two numbers</name>
+            <title>Substract two numbers</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='6fa15278-d4d7-44e6-b05e-216b5c2cd062-attachment.png' type='image/png' size='37127'/>
+            </attachments>
+        </test-case>
+        <test-case start='1563627844429' status='passed' stop='1563627848116'>
+            <name>Division of two numbers</name>
+            <title>Division of two numbers</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='a26c0b86-0cb4-44ea-8971-abc7c92da668-attachment.png' type='image/png' size='38175'/>
+            </attachments>
+        </test-case>
+        <test-case start='1563627848116' status='passed' stop='1563627849311'>
+            <name>Should allow 4 operations</name>
+            <title>Should allow 4 operations</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='b3b38cf9-cbdb-467d-9129-73f87b4666df-attachment.png' type='image/png' size='34612'/>
+            </attachments>
+        </test-case>
+        <test-case start='1563627849311' status='passed' stop='1563627856647'>
+            <name>Performed operations are displayed in table</name>
+            <title>Performed operations are displayed in table</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='2b912322-c0eb-42a5-9b68-57ff49ee151b-attachment.png' type='image/png' size='38235'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,59 @@
+{
+  "uid" : "355661820093f33d",
+  "name" : "Add two numbers",
+  "fullName" : "Demo first test.Add two numbers",
+  "historyId" : "1c3a4bef4cded813a301a6fc5d1044c7",
+  "time" : {
+    "start" : 1563627838023,
+    "stop" : 1563627841122,
+    "duration" : 3099
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "6c2a9f2202e88054",
+      "name" : "Screenshot",
+      "source" : "6c2a9f2202e88054.png",
+      "type" : "image/png",
+      "size" : 37105
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Demo first test"
+  }, {
+    "name" : "testClass",
+    "value" : "Demo first test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Add two numbers"
+  }, {
+    "name" : "package",
+    "value" : "Demo first test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "355661820093f33d.json",
+  "parameterValues" : [ ]
+}

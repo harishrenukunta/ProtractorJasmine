@@ -1,0 +1,61 @@
+[ {
+  "uid" : "a8b210ea4086e23f",
+  "name" : "Should allow 4 operations",
+  "time" : {
+    "start" : 1563640189976,
+    "stop" : 1563640191173,
+    "duration" : 1197
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2213e81556ffac0e",
+  "name" : "Division of two numbers",
+  "time" : {
+    "start" : 1563640186276,
+    "stop" : 1563640189976,
+    "duration" : 3700
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b722b4161167a8f0",
+  "name" : "Performed operations are displayed in table",
+  "time" : {
+    "start" : 1563640191173,
+    "stop" : 1563640198500,
+    "duration" : 7327
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "7c9e604214a9ce39",
+  "name" : "Substract two numbers",
+  "time" : {
+    "start" : 1563640182978,
+    "stop" : 1563640186276,
+    "duration" : 3298
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b8252e4dff7c69dc",
+  "name" : "Verify all text boxes available",
+  "time" : {
+    "start" : 1563640178293,
+    "stop" : 1563640179725,
+    "duration" : 1432
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e55e011612eb5786",
+  "name" : "Add two numbers",
+  "time" : {
+    "start" : 1563640179731,
+    "stop" : 1563640182978,
+    "duration" : 3247
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

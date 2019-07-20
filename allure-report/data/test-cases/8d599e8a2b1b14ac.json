@@ -1,0 +1,59 @@
+{
+  "uid" : "8d599e8a2b1b14ac",
+  "name" : "Verify all text boxes available",
+  "fullName" : "Verify UI elements.Verify all text boxes available",
+  "historyId" : "3152015299126778985af410e0842e2c",
+  "time" : {
+    "start" : 1563639162185,
+    "stop" : 1563639163588,
+    "duration" : 1403
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "eace04b4f63e1de5",
+      "name" : "Screenshot",
+      "source" : "eace04b4f63e1de5.png",
+      "type" : "image/png",
+      "size" : 34612
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Verify UI elements"
+  }, {
+    "name" : "testClass",
+    "value" : "Verify UI elements"
+  }, {
+    "name" : "testMethod",
+    "value" : "Verify all text boxes available"
+  }, {
+    "name" : "package",
+    "value" : "Verify UI elements"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8d599e8a2b1b14ac.json",
+  "parameterValues" : [ ]
+}

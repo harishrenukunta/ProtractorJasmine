@@ -1,0 +1,17 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1563639060138' stop='1563639061597'>
+    <name>Verify UI elements</name>
+    <title>Verify UI elements</title>
+    <test-cases>
+        <test-case start='1563639060138' status='passed' stop='1563639061596'>
+            <name>Verify all text boxes available</name>
+            <title>Verify all text boxes available</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='5e936ba2-69c5-479a-95b8-3aed4eeaf84e-attachment.png' type='image/png' size='34612'/>
+            </attachments>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

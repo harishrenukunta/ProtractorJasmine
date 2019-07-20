@@ -1,14 +1,28 @@
 
+function takeScreenShot(msg){
+    browser.takeScreenshot().then(function(png){
+        allure.createAttachment(msg, function(){
+            return new Buffer(png, 'base64')
+        }, 'image/png')();
 
-
+    })
+}
 describe('Demo first test', function(){
     beforeEach(function(){
         browser.get('http://juliemr.github.io/protractor-demo/');
     })
 
     it('Add two numbers', function(){
-        element(by.model('first')).sendKeys('5');
-        element(by.model('second')).sendKeys('6');
+        allure.createStep('Enter data into first operand', function(){
+            element(by.model('first')).sendKeys('5');
+            takeScreenShot('Screenshot:After First operand');
+        })();
+
+        allure.createStep('Enter data into second operand', function(){
+            element(by.model('second')).sendKeys('6');
+            takeScreenShot('Screenshot:After First operand');
+        })();
+
         element(by.id('gobutton')).click();
         expect(element(by.tagName('h2')).getText()).toEqual('11');
 

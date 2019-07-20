@@ -1,0 +1,109 @@
+{
+  "uid" : "7c9e604214a9ce39",
+  "name" : "Substract two numbers",
+  "fullName" : "Demo first test.Substract two numbers",
+  "historyId" : "d41bb61439d06c0c109c643c849bd4af",
+  "time" : {
+    "start" : 1563640182978,
+    "stop" : 1563640186276,
+    "duration" : 3298
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "624502a4a75e022a",
+      "name" : "Screenshot",
+      "source" : "624502a4a75e022a.png",
+      "type" : "image/png",
+      "size" : 37397
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Demo first test"
+  }, {
+    "name" : "testClass",
+    "value" : "Demo first test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Substract two numbers"
+  }, {
+    "name" : "package",
+    "value" : "Demo first test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "28d453f0d40fdbb9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563639880479,
+        "stop" : 1563639883787,
+        "duration" : 3308
+      }
+    }, {
+      "uid" : "2dadf4a4c1efc6be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563639811484,
+        "stop" : 1563639814779,
+        "duration" : 3295
+      }
+    }, {
+      "uid" : "fe934f1b6c3df23f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563639166679,
+        "stop" : 1563639169968,
+        "duration" : 3289
+      }
+    }, {
+      "uid" : "bd6be60e8ac44ee9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563639062788,
+        "stop" : 1563639066087,
+        "duration" : 3299
+      }
+    }, {
+      "uid" : "fc472b86c37e7bb6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563627841123,
+        "stop" : 1563627844429,
+        "duration" : 3306
+      }
+    }, {
+      "uid" : "34496a7a705fe376",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563627609867,
+        "stop" : 1563627613086,
+        "duration" : 3219
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7c9e604214a9ce39.json",
+  "parameterValues" : [ ]
+}

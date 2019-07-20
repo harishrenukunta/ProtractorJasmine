@@ -1,0 +1,89 @@
+{
+  "uid" : "9f38b16560da89a9",
+  "name" : "Add two numbers",
+  "fullName" : "Demo first test.Add two numbers",
+  "historyId" : "1c3a4bef4cded813a301a6fc5d1044c7",
+  "time" : {
+    "start" : 1563639163594,
+    "stop" : 1563639166679,
+    "duration" : 3085
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Enter data into first operand",
+      "time" : {
+        "start" : 1563639164675,
+        "stop" : 1563639164675,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    }, {
+      "name" : "Enter data into second operand",
+      "time" : {
+        "start" : 1563639164676,
+        "stop" : 1563639164676,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "hasContent" : false,
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "9a6e7cf3e707aa6",
+      "name" : "Screenshot",
+      "source" : "9a6e7cf3e707aa6.png",
+      "type" : "image/png",
+      "size" : 37441
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Demo first test"
+  }, {
+    "name" : "testClass",
+    "value" : "Demo first test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Add two numbers"
+  }, {
+    "name" : "package",
+    "value" : "Demo first test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9f38b16560da89a9.json",
+  "parameterValues" : [ ]
+}

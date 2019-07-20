@@ -1,0 +1,109 @@
+{
+  "uid" : "a8b210ea4086e23f",
+  "name" : "Should allow 4 operations",
+  "fullName" : "Demo first test.Should allow 4 operations",
+  "historyId" : "1c31b3042853e4bf26f683849729190d",
+  "time" : {
+    "start" : 1563640189976,
+    "stop" : 1563640191173,
+    "duration" : 1197
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "991384880dabde01",
+      "name" : "Screenshot",
+      "source" : "991384880dabde01.png",
+      "type" : "image/png",
+      "size" : 34612
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Demo first test"
+  }, {
+    "name" : "testClass",
+    "value" : "Demo first test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Should allow 4 operations"
+  }, {
+    "name" : "package",
+    "value" : "Demo first test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "84e0952f099633d2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563639887476,
+        "stop" : 1563639888672,
+        "duration" : 1196
+      }
+    }, {
+      "uid" : "42408d0cb1411900",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563639818469,
+        "stop" : 1563639819642,
+        "duration" : 1173
+      }
+    }, {
+      "uid" : "cba55ef6b7f17e8f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563639173666,
+        "stop" : 1563639174867,
+        "duration" : 1201
+      }
+    }, {
+      "uid" : "dd46161688e05672",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563639069806,
+        "stop" : 1563639070994,
+        "duration" : 1188
+      }
+    }, {
+      "uid" : "8e7d60beaf7d450e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563627848116,
+        "stop" : 1563627849311,
+        "duration" : 1195
+      }
+    }, {
+      "uid" : "411f371118188d4f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563627616703,
+        "stop" : 1563627617810,
+        "duration" : 1107
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a8b210ea4086e23f.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,63 @@
+{
+  "uid" : "2f4d873884b86734",
+  "name" : "Add two numbers",
+  "fullName" : "Demo first test.Add two numbers",
+  "historyId" : "1c3a4bef4cded813a301a6fc5d1044c7",
+  "time" : {
+    "start" : 1563639061602,
+    "stop" : 1563639062788,
+    "duration" : 1186
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Failed: Cannot read property 'createStep' of undefined",
+  "statusTrace" : "TypeError: Cannot read property 'createStep' of undefined\n                    at UserContext.<anonymous> (/Users/Harish/Documents/MyPersonalProjects/protractor-demo/LearnProtractorJasmine/specs/spec.js:8:21)\n                    at /Users/Harish/Documents/MyPersonalProjects/protractor-demo/LearnProtractorJasmine/node_modules/jasminewd2/index.js:112:25\n                    at new ManagedPromise (/Users/Harish/Documents/MyPersonalProjects/protractor-demo/LearnProtractorJasmine/node_modules/selenium-webdriver/lib/promise.js:1077:7)\n                    at ControlFlow.promise (/Users/Harish/Documents/MyPersonalProjects/protractor-demo/LearnProtractorJasmine/node_modules/selenium-webdriver/lib/promise.js:2505:12)\n                    at schedulerExecute (/Users/Harish/Documents/MyPersonalProjects/protractor-demo/LearnProtractorJasmine/node_modules/jasminewd2/index.js:95:18)\n                    at TaskQueue.execute_ (/Users/Harish/Documents/MyPersonalProjects/protractor-demo/LearnProtractorJasmine/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n                    at TaskQueue.executeNext_ (/Users/Harish/Documents/MyPersonalProjects/protractor-demo/LearnProtractorJasmine/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n                    at asyncRun (/Users/Harish/Documents/MyPersonalProjects/protractor-demo/LearnProtractorJasmine/node_modules/selenium-webdriver/lib/promise.js:2974:25)\n                    at /Users/Harish/Documents/MyPersonalProjects/protractor-demo/LearnProtractorJasmine/node_modules/selenium-webdriver/lib/promise.js:668:7\n                    at process._tickCallback (internal/process/next_tick.js:68:7)\n                From: Task: Run it(\"Add two numbers\") in control flow\n                    at UserContext.<anonymous> (/Users/Harish/Documents/MyPersonalProjects/protractor-demo/LearnProtractorJasmine/node_modules/jasminewd2/index.js:94:19)\n                    at attempt (/Users/Harish/Documents/MyPersonalProjects/protractor-demo/LearnProtractorJasmine/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)\n                    at QueueRunner.run (/Users/Harish/Documents/MyPersonalProjects/protractor-demo/LearnProtractorJasmine/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)\n                    at runNext (/Users/Harish/Documents/MyPersonalProjects/protractor-demo/LearnProtractorJasmine/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4257:20)\n                    at /Users/Harish/Documents/MyPersonalProjects/protractor-demo/LearnProtractorJasmine/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4264:13\n                    at /Users/Harish/Documents/MyPersonalProjects/protractor-demo/LearnProtractorJasmine/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4172:9\n                    at /Users/Harish/Documents/MyPersonalProjects/protractor-demo/LearnProtractorJasmine/node_modules/jasminewd2/index.js:64:48\n                    at ControlFlow.emit (/Users/Harish/Documents/MyPersonalProjects/protractor-demo/LearnProtractorJasmine/node_modules/selenium-webdriver/lib/events.js:62:21)\n                    at ControlFlow.shutdown_ (/Users/Harish/Documents/MyPersonalProjects/protractor-demo/LearnProtractorJasmine/node_modules/selenium-webdriver/lib/promise.js:2674:10)\n                    at shutdownTask_.MicroTask (/Users/Harish/Documents/MyPersonalProjects/protractor-demo/LearnProtractorJasmine/node_modules/selenium-webdriver/lib/promise.js:2599:53)\n                From asynchronous test: \n                Error\n                    at Suite.<anonymous> (/Users/Harish/Documents/MyPersonalProjects/protractor-demo/LearnProtractorJasmine/specs/spec.js:7:5)\n                    at addSpecsToSuite (/Users/Harish/Documents/MyPersonalProjects/protractor-demo/LearnProtractorJasmine/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1107:25)\n                    at Env.describe (/Users/Harish/Documents/MyPersonalProjects/protractor-demo/LearnProtractorJasmine/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1074:7)\n                    at describe (/Users/Harish/Documents/MyPersonalProjects/protractor-demo/LearnProtractorJasmine/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4399:18)\n                    at Object.<anonymous> (/Users/Harish/Documents/MyPersonalProjects/protractor-demo/LearnProtractorJasmine/specs/spec.js:2:1)\n                    at Module._compile (internal/modules/cjs/loader.js:776:30)\n                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10)\n                    at Module.load (internal/modules/cjs/loader.js:653:32)\n                    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Failed: Cannot read property 'createStep' of undefined",
+    "statusTrace" : "TypeError: Cannot read property 'createStep' of undefined\n                    at UserContext.<anonymous> (/Users/Harish/Documents/MyPersonalProjects/protractor-demo/LearnProtractorJasmine/specs/spec.js:8:21)\n                    at /Users/Harish/Documents/MyPersonalProjects/protractor-demo/LearnProtractorJasmine/node_modules/jasminewd2/index.js:112:25\n                    at new ManagedPromise (/Users/Harish/Documents/MyPersonalProjects/protractor-demo/LearnProtractorJasmine/node_modules/selenium-webdriver/lib/promise.js:1077:7)\n                    at ControlFlow.promise (/Users/Harish/Documents/MyPersonalProjects/protractor-demo/LearnProtractorJasmine/node_modules/selenium-webdriver/lib/promise.js:2505:12)\n                    at schedulerExecute (/Users/Harish/Documents/MyPersonalProjects/protractor-demo/LearnProtractorJasmine/node_modules/jasminewd2/index.js:95:18)\n                    at TaskQueue.execute_ (/Users/Harish/Documents/MyPersonalProjects/protractor-demo/LearnProtractorJasmine/node_modules/selenium-webdriver/lib/promise.js:3084:14)\n                    at TaskQueue.executeNext_ (/Users/Harish/Documents/MyPersonalProjects/protractor-demo/LearnProtractorJasmine/node_modules/selenium-webdriver/lib/promise.js:3067:27)\n                    at asyncRun (/Users/Harish/Documents/MyPersonalProjects/protractor-demo/LearnProtractorJasmine/node_modules/selenium-webdriver/lib/promise.js:2974:25)\n                    at /Users/Harish/Documents/MyPersonalProjects/protractor-demo/LearnProtractorJasmine/node_modules/selenium-webdriver/lib/promise.js:668:7\n                    at process._tickCallback (internal/process/next_tick.js:68:7)\n                From: Task: Run it(\"Add two numbers\") in control flow\n                    at UserContext.<anonymous> (/Users/Harish/Documents/MyPersonalProjects/protractor-demo/LearnProtractorJasmine/node_modules/jasminewd2/index.js:94:19)\n                    at attempt (/Users/Harish/Documents/MyPersonalProjects/protractor-demo/LearnProtractorJasmine/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4297:26)\n                    at QueueRunner.run (/Users/Harish/Documents/MyPersonalProjects/protractor-demo/LearnProtractorJasmine/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4217:20)\n                    at runNext (/Users/Harish/Documents/MyPersonalProjects/protractor-demo/LearnProtractorJasmine/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4257:20)\n                    at /Users/Harish/Documents/MyPersonalProjects/protractor-demo/LearnProtractorJasmine/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4264:13\n                    at /Users/Harish/Documents/MyPersonalProjects/protractor-demo/LearnProtractorJasmine/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4172:9\n                    at /Users/Harish/Documents/MyPersonalProjects/protractor-demo/LearnProtractorJasmine/node_modules/jasminewd2/index.js:64:48\n                    at ControlFlow.emit (/Users/Harish/Documents/MyPersonalProjects/protractor-demo/LearnProtractorJasmine/node_modules/selenium-webdriver/lib/events.js:62:21)\n                    at ControlFlow.shutdown_ (/Users/Harish/Documents/MyPersonalProjects/protractor-demo/LearnProtractorJasmine/node_modules/selenium-webdriver/lib/promise.js:2674:10)\n                    at shutdownTask_.MicroTask (/Users/Harish/Documents/MyPersonalProjects/protractor-demo/LearnProtractorJasmine/node_modules/selenium-webdriver/lib/promise.js:2599:53)\n                From asynchronous test: \n                Error\n                    at Suite.<anonymous> (/Users/Harish/Documents/MyPersonalProjects/protractor-demo/LearnProtractorJasmine/specs/spec.js:7:5)\n                    at addSpecsToSuite (/Users/Harish/Documents/MyPersonalProjects/protractor-demo/LearnProtractorJasmine/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1107:25)\n                    at Env.describe (/Users/Harish/Documents/MyPersonalProjects/protractor-demo/LearnProtractorJasmine/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:1074:7)\n                    at describe (/Users/Harish/Documents/MyPersonalProjects/protractor-demo/LearnProtractorJasmine/node_modules/protractor/node_modules/jasmine-core/lib/jasmine-core/jasmine.js:4399:18)\n                    at Object.<anonymous> (/Users/Harish/Documents/MyPersonalProjects/protractor-demo/LearnProtractorJasmine/specs/spec.js:2:1)\n                    at Module._compile (internal/modules/cjs/loader.js:776:30)\n                    at Object.Module._extensions..js (internal/modules/cjs/loader.js:787:10)\n                    at Module.load (internal/modules/cjs/loader.js:653:32)\n                    at tryModuleLoad (internal/modules/cjs/loader.js:593:12)",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "5f41adeae3c9031e",
+      "name" : "Screenshot",
+      "source" : "5f41adeae3c9031e.png",
+      "type" : "image/png",
+      "size" : 34612
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Demo first test"
+  }, {
+    "name" : "testClass",
+    "value" : "Demo first test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Add two numbers"
+  }, {
+    "name" : "package",
+    "value" : "Demo first test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2f4d873884b86734.json",
+  "parameterValues" : [ ]
+}

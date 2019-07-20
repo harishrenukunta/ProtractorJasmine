@@ -7,6 +7,7 @@ exports.config = {
         browserName:'firefox'
     },
     onPrepare: function() {
+        /*
         jasmine.getEnv().addReporter(
           new Jasmine2HtmlReporter({
             savePath: './test/reports/',
@@ -17,7 +18,23 @@ exports.config = {
             fileName: 'Tanvi Test Report',
             fileNameSeparator: '_'
          })
+
         );
-     }
-  };
+        */
+         var AllureReporter = require('jasmine-allure-reporter');
+        jasmine.getEnv().addReporter(new AllureReporter({
+            resultsDir: 'allure-results'
+        }));
+
+        jasmine.getEnv().afterEach(function(done){
+            browser.takeScreenshot().then(function (png) {
+              allure.createAttachment('Screenshot', function () {
+                return new Buffer(png, 'base64')
+              }, 'image/png')();
+              done();
+            })
+        
+        });
+  }
+}
  

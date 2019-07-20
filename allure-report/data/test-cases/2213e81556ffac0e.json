@@ -1,0 +1,109 @@
+{
+  "uid" : "2213e81556ffac0e",
+  "name" : "Division of two numbers",
+  "fullName" : "Demo first test.Division of two numbers",
+  "historyId" : "71fc0f57f45890840aad0e8f66a3e319",
+  "time" : {
+    "start" : 1563640186276,
+    "stop" : 1563640189976,
+    "duration" : 3700
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "ce01b9af2a23e3ef",
+      "name" : "Screenshot",
+      "source" : "ce01b9af2a23e3ef.png",
+      "type" : "image/png",
+      "size" : 38566
+    } ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 0,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Demo first test"
+  }, {
+    "name" : "testClass",
+    "value" : "Demo first test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Division of two numbers"
+  }, {
+    "name" : "package",
+    "value" : "Demo first test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a9db0b9111ac18e1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563639883787,
+        "stop" : 1563639887476,
+        "duration" : 3689
+      }
+    }, {
+      "uid" : "9eb8205dc591cb40",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563639814779,
+        "stop" : 1563639818469,
+        "duration" : 3690
+      }
+    }, {
+      "uid" : "dd5236fff1f04a7e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563639169968,
+        "stop" : 1563639173666,
+        "duration" : 3698
+      }
+    }, {
+      "uid" : "e9dbbdc72b896f6b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563639066087,
+        "stop" : 1563639069806,
+        "duration" : 3719
+      }
+    }, {
+      "uid" : "237b60a83ee61826",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563627844429,
+        "stop" : 1563627848116,
+        "duration" : 3687
+      }
+    }, {
+      "uid" : "c24c709f890ae341",
+      "status" : "passed",
+      "time" : {
+        "start" : 1563627613086,
+        "stop" : 1563627616703,
+        "duration" : 3617
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2213e81556ffac0e.json",
+  "parameterValues" : [ ]
+}
